@@ -71,9 +71,34 @@ p {
     margin: 0 auto;
 }
 
+/* header */
+
+header {
+    display: flex;
+    margin: 25px 0;
+    margin-bottom: 40px;
+}
+
+header a img {
+    margin-right: 20px;
+}
+
+header nav {
+    width: 593px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+header nav a{
+    color: black;
+    text-decoration: none;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 20px;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +137,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .one {
+    background-color: teal;
+}
+
+.middle-content .boxes .two {
+    background-color: gold;
+}
+
+.middle-content .boxes .three {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .four {
+    background-color: coral;
+}
+
+.middle-content .boxes .five {
+    background-color: crimson;
+}
+
+.middle-content .boxes .six {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .seven {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .eight {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .nine {
+    background-color: indigo;
+}
+
+.middle-content .boxes .ten {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +208,45 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About page */
+
+.about-top-content {
+    margin-bottom: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-flow: row wrap;
+}
+.about-text-container {
+    width: 45%;
+    margin: 20px 18px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-text-container img {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.about-text-container button {
+    background-color: white;
+    border: 2px solid black;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 6px 20px;
+    margin-top: 15px;
+}
+
+.about-bottom-content {
+    margin: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
 }
